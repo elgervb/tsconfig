@@ -26,3 +26,9 @@ Add the following to your `tslint.json` file
   ],
 }
 ```
+
+
+# links
+
+* [tslint](https://palantir.github.io/tslint/)
+* [changelog](https://github.com/palantir/tslint/blob/master/CHANGELOG.md)
