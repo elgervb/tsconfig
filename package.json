@@ -1,0 +1,29 @@
+{
+  "name": "tslint-config-elgervb",
+  "version": "0.0.1",
+  "description": "Elgervb project tslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "pretest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elgervb/elgervb-tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "tslint-config"
+  ],
+  "author": "Elgern van Boxtel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elgervb/elgervb-tslint-config/issues"
+  },
+  "homepage": "https://github.com/elgervb/elgervb-tslint-config",
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-stylelint": "6.0.0",
+    "tslint": "4.5.1"
+  }
+}
