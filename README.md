@@ -8,11 +8,11 @@
 ## installation
 
 ```
-npm install tslint-config
+npm install elgervb-tslint-config
 ```
 or
 ```
-yarn install tslint-config
+yarn install elgervb-tslint-config
 ```
 
 ## usage
@@ -22,8 +22,19 @@ Add the following to your `tslint.json` file
 ```
 {
   "rulesDirectory": [
-    "node_modules/tslint-config-elgervb"
+    "node_modules/elgervb-tslint-config",
+    "node_modules/elgervb-tslint-config/codelyzer"
   ],
+}
+```
+
+# TSCONFIG
+```
+{
+  "extends": "node_modules/elgervb-tslint-config/configs/base",
+  "files": [
+    ...
+  ]
 }
 ```
 
