@@ -1,6 +1,6 @@
 
-[![Build Status](https://travis-ci.org/elgervb/tslint-config.svg?branch=master)](https://travis-ci.org/elgervb/tslint-config)
-[![devDependencies Status](https://david-dm.org/elgervb/tslint-config/dev-status.svg)](https://david-dm.org/elgervb/tslint-config?type=dev)
+[![Build Status](https://travis-ci.org/elgervb/tslint-config-elgervb.svg?branch=master)](https://travis-ci.org/elgervb/tslint-config-elgervb)
+[![devDependencies Status](https://david-dm.org/elgervb/tslint-config-elgervb/dev-status.svg)](https://david-dm.org/elgervb/tslint-config-elgervb?type=dev)
 
 
 # elgervb TSLint config
@@ -8,11 +8,11 @@
 ## installation
 
 ```
-npm install elgervb-tslint-config
+npm install tslint-config-elgervb
 ```
 or
 ```
-yarn add elgervb-tslint-config
+yarn add tslint-config-elgervb
 ```
 
 ## usage
@@ -22,8 +22,8 @@ Add the following to your `tslint.json` file
 ```
 {
   "rulesDirectory": [
-    "node_modules/elgervb-tslint-config",
-    "node_modules/elgervb-tslint-config/codelyzer"
+    "node_modules/tslint-config-elgervb",
+    "node_modules/tslint-config-elgervb/codelyzer"
   ],
 }
 ```
@@ -31,7 +31,7 @@ Add the following to your `tslint.json` file
 # TSCONFIG
 ```
 {
-  "extends": "node_modules/elgervb-tslint-config/configs/base",
+  "extends": "node_modules/tslint-config-elgervb/configs/base",
   "files": [
     ...
   ]
