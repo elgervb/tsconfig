@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/elgervb/tslint-config",
   "dependencies": {
-    "codelyzer": "2.0.0"
+    "codelyzer": "3.0.1"
   },
   "devDependencies": {
     "eslint": "3.19.0",

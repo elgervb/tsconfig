@@ -8,8 +8,8 @@ module.exports = {
     /**
      * CodeLyzer ruling
      */
-    "directive-selector": [ true, "attribute", "smt", "camelCase" ],
-    "component-selector": [ true, "element", "smt", "kebab-case" ],
+    "directive-selector": [ true, ["attribute"], "smt", "camelCase" ],
+    "component-selector": [ true, ["element"], "smt", "kebab-case" ],
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
