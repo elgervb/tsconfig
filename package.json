@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-elgervb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Elgervb project tslint config",
   "main": "index.js",
   "scripts": {
