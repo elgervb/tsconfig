@@ -12,7 +12,7 @@ npm install elgervb-tslint-config
 ```
 or
 ```
-yarn install elgervb-tslint-config
+yarn add elgervb-tslint-config
 ```
 
 ## usage
