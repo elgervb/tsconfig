@@ -15,7 +15,7 @@
     "tslint",
     "tslint-config"
   ],
-  "author": "Elgern van Boxtel",
+  "author": "Elger van Boxtel",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/elgervb/tslint-config/issues"
