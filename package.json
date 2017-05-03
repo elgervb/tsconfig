@@ -21,8 +21,10 @@
     "url": "https://github.com/elgervb/tslint-config/issues"
   },
   "homepage": "https://github.com/elgervb/tslint-config",
+  "dependencies": {
+    "codelyzer": "2.0.0"
+  },
   "devDependencies": {
-    "codelyzer": "2.0.0",
     "eslint": "3.19.0",
     "eslint-config-stylelint": "6.0.0",
     "tslint": "5.0.0",
