@@ -8,8 +8,9 @@ module.exports = {
     /**
      * CodeLyzer ruling
      */
-    "directive-selector": [ true, ["attribute"], "smt", "camelCase" ],
-    "component-selector": [ true, ["element"], "smt", "kebab-case" ],
+    "directive-selector": [ true, ["attribute"], "evb", "camelCase" ],
+    "component-selector": [ true, ["element"], "evb", "kebab-case" ],
+    "pipe-naming": [ true, "camelCase", "evb" ],
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
     "use-host-property-decorator": true,
@@ -19,7 +20,6 @@ module.exports = {
     "no-forward-ref": true,
     "use-life-cycle-interface": true,
     "use-pipe-transform-interface": true,
-    "pipe-naming": [ true, "camelCase", "smt" ],
     "component-class-suffix": true,
     "directive-class-suffix": true,
     "templates-use-public": true,
