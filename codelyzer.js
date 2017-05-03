@@ -1,9 +1,6 @@
 "use strict"
 
 module.exports = {
-  "rulesDirectory": [
-    "node_modules/codelyzer",
-  ],
   "rules": {
     /**
      * CodeLyzer ruling
